@@ -23,4 +23,8 @@ So even the branch name doesn't match i can still push to github using
 	Did it work: Yes changing the branch name back to master works 
 
 3. After changing my branch name from master to main, if i also change my repo name on my remote platform(GitHub) will i be able to push
-	Did it work:
+	Did it work: This is tricky.
+	Using ordinary 'git push' doesn't work, since the local doesnt know the name of the 		repo has also changed.
+	However, using 'git push -u origin new_name_of_branch' works and also set the branch 		to track it.
+
+An important point to note is this is possible because i know the new name the branch was change to on the remote platform.
