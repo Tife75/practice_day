@@ -20,7 +20,7 @@ So even the branch name doesn't match i can still push to github using
 	this pushes from my branch name main to git with branch name master
 
 2. My third hypothesis if i change branch name back to master, will i be able to push
-	Did it work:
+	Did it work: Yes changing the branch name back to master works 
 
 3. After changing my branch name from master to main, if i also change my repo name on my remote platform(GitHub) will i be able to push
 	Did it work:
